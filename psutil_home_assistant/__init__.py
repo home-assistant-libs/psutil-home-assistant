@@ -5,7 +5,7 @@ if TYPE_CHECKING:
     import psutil  # noqa: F401
 
 
-class PsutilWrapper():
+class PsutilWrapper:
     """Wrap a copy of psutil."""
 
     def __init__(self) -> None:

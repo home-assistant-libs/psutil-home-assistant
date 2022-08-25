@@ -1,6 +1,7 @@
 import psutil
 import psutil_home_assistant
 
+
 def test_multiple_copies():
     """Test that multiple psutil instances can be created and do not interfere."""
 
