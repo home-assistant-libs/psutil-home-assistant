@@ -27,9 +27,9 @@ jobs:
       - name: Lint with flake8
         run: |
           flake8 psutil_home_assistant
-      #- name: Check formatting with black
-      #  run: |
-      #    black psutil_home_assistant --check --diff
+      - name: Check formatting with black
+        run: |
+          black psutil_home_assistant --check --diff
       - name: Run tests
         run: |
           pytest tests
