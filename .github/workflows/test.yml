@@ -26,10 +26,10 @@ jobs:
           pip install -r requirements-test.txt
       - name: Lint with flake8
         run: |
-          flake8 psutil_home_assistant
+          flake8 psutil_home_assistant tests
       - name: Check formatting with black
         run: |
-          black psutil_home_assistant --check --diff
+          black psutil_home_assistant tests --check --diff
       - name: Run tests
         run: |
           pytest tests
