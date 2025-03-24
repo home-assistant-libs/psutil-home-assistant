@@ -1,5 +1,0 @@
-include README.md
-include requirements.txt
-include LICENSE
-graft psutil_home_assistant
-recursive-exclude * *.py[co]

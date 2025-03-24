@@ -1,0 +1,25 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=77.0"]
+
+[project]
+name = "psutil-home-assistant"
+version = "0.0.1"
+license = "Apache-2.0"
+description = "Wrapper for psutil to allow it to be used several times in the same process."
+readme = "README.md"
+authors = [{ name = "Erik Montnemery" }]
+requires-python = ">=3.9"
+classifiers = [
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+  "psutil",
+]
+
+[project.urls]
+"Source code" = "https://github.com/home-assistant-libs/psutil-home-assistant"
